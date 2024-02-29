@@ -1,8 +1,8 @@
+import time
 from pathlib import Path
 
 import cv2
 import torch
-import torch.backends.cudnn as cudnn
 from numpy import random
 import json
 
@@ -13,7 +13,7 @@ from utils.general import check_img_size, non_max_suppression, apply_classifier,
 from utils.plots import plot_one_box
 from utils.torch_utils import select_device, load_classifier, time_synchronized
 
-import time
+# Daniel Libraries
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
